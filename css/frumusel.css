@@ -1,0 +1,63 @@
+@CHARSET "UTF-8";
+
+canvas{
+	border: 1px solid #bbb;
+	background-image: url("../utils/game.jpg");
+}
+
+.subdiv{
+    text-align: center;
+}
+
+.text{
+	margin: auto; width: 290px;
+}
+
+#fileDisplayArea {
+  margin-top: 2em;
+  width: 100%;
+  overflow-x: auto;
+}
+
+body{
+	background: black;
+}
+
+label{
+    color: lightblue;
+}
+
+p{
+	color: lightblue;
+}
+
+#add{
+	color: green;
+	margin-top: -100px;
+	font-size: 30px;
+}
+
+#penalty{
+	color: red;
+	margin-top: -100px;
+	font-size: 30px;
+}
+
+#skipped{
+	color: yellow;
+	margin-top: -100px;
+	font-size: 30px;
+}
+#word{
+	color: blue;
+    background: lightblue;
+    margin-top: 5px;
+    width: 750;
+}
+
+#game{
+	font-size: 40px;
+	color:lightblue;
+	text-align: center;
+	margin-top: 12%;
+}

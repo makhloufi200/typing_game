@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="..\css\frumusel.css">
+</head>
+<body onload="init();">
+	<p id="game">
+		تعلم استعمال لوحة المفاتيح
+	</p>
+    <div class="subdiv">
+    	<div class="row" id="row1">
+			<div class="col-sm-3"></div>
+
+			<div class="col-sm-2">
+				<label id="l">مستوى</label>
+				<p id="level"></p>
+			</div>
+
+			<div class="col-sm-2">
+				<label id="sc">النتيجة</label>
+				<p id="score">0</p>
+			</div>
+
+			<div class="col-sm-2">
+				<label id="t">الوقت</label>
+				<p id="time"></p>
+			</div>
+
+			<div class="col-sm-3"></div>
+		</div>
+		<canvas id="MyCanvas1" width="800" height="500">
+  			This browser or document mode doesn't support canvas object
+  		</canvas><br>
+        <label>اكتب الكلمة هنا</label> <input type="text" id="word"><br>
+
+        <div id="add" hidden="true">
+
+        </div>
+        <div id="penalty" hidden="true">
+
+        </div>
+
+        <div id="skipped" hidden="true">
+
+        </div>
+    </div>
+</body>
+	<meta charset="UTF-8"/>
+	<script src="..\js\words.js" type="text/javascript" charset="utf-8"></script>
+	<script src="..\js\scriptulet.js" type="text/javascript" charset="utf-8"></script>
+</html>
